@@ -1,0 +1,78 @@
+.navbar{
+   width: 100%;
+   height: 50px;
+   background-color: #3986ac;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar .inside{
+    width: 75%;
+    height: 100%;
+    background-color:transparent;
+    display: flex;
+}
+
+.navbar .inside .left{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .inside .left .logo{
+    width: 7%;
+    height: 90%;
+    cursor: pointer;
+}
+
+.navbar .inside .left .logo  img{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .inside .left .Links{
+    width: 60%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+}
+
+.navbar .inside .left .Links .Link{
+   width: auto;
+   height: auto;
+}
+
+.navbar .inside .left .Links .Link:active{
+    border-bottom: 3px #66ccff solid; 
+    cursor: pointer;
+ }
+
+.navbar .inside .left .Links .Link a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar .inside .left .serach{
+    width: 18px;
+    height: 18px;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.navbar .inside .left .serach img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.navbar .inside .right{
+    width: 35%;
+    height: 100%;
+    display: flex;
+}
