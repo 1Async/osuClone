@@ -15,15 +15,15 @@
 }
 
 .navbar .inside .left{
-    width: 65%;
+    width: 75%;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
 .navbar .inside .left .logo{
-    width: 7%;
-    height: 90%;
+    width: 48px;
+    height: 48px;
     cursor: pointer;
 }
 
@@ -52,7 +52,7 @@
  }
 
 .navbar .inside .left .Links .Link a{
-    color: white;
+    color: #fffff7;
     text-decoration: none;
     font-size: 15px;
 }
@@ -60,8 +60,9 @@
 .navbar .inside .left .serach{
     width: 18px;
     height: 18px;
-    margin-left: 15px;
+    margin-left: 19px;
     align-items: center;
+    cursor: pointer;
 }
 
 .navbar .inside .left .serach img{
@@ -70,9 +71,156 @@
 }
 
 
-
 .navbar .inside .right{
-    width: 35%;
+    width: 25%;
     height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: end;
 }
+
+.navbar .inside .right .twiter,.heart{
+    width: 30px;
+    height: 30px;
+    border: 3px #6ba4c1 solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 9px;
+}
+
+.navbar .inside .right .twiter:hover,.heart:hover{
+    border: 3px white solid;
+    background-color: #1c4356;
+}
+
+.navbar .inside .right .language:hover{
+    border: 3px white solid;
+    background-color: #1c4356;
+}
+
+
+.navbar .inside .right .twiter a,.heart a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navbar .inside .right .twiter a img,.heart a img{
+    width: 60%;
+    height: 60%;
+}
+
+.navbar .inside .right .heart img:hover{
+    filter: invert(53%) sepia(73%) saturate(1136%) hue-rotate(299deg) brightness(102%) contrast(101%);
+}
+
+.navbar .inside .right .language{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px #6ba4c1 solid;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 9px;
+}
+
+.navbar .inside .right .language .flag{
+    width: 60%;
+    height: 60%;
+}
+
+.navbar .inside .right .language .flag img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    opacity: 80%;
+}
+
+.navbar .inside .right .profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 9px;
+}
+
+.navbar .inside .right .profile a{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .inside .right .profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.navbar .showNav{
+    width: auto;
+    height: 100%;
+    display: flex;  
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar .showNav img{
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    .navbar .showNav img{
+        display:block;
+    }
+
+
+    .navbar .inside .right *{
+        display: none;
+    }
+
+    .navbar .inside .right  .language{
+        display: none;
+    }
+
+    .navbar .inside .right  .twiter{
+        display: none;
+    }
+
+    .navbar .inside .left .Links,.serach{
+        display: none;
+    }
+
+    .navbar .showNav{
+        width: 20%;
+        height: 100%;
+        margin-right: 20px;
+    }  
+
+}
+
+@media screen and (max-width:1200px) {
+    .navbar .inside{
+        width: 100%;
+    }
+     
+    .navbar .inside .left{
+        margin-left:20px ;
+    }
+
+    .navbar .inside .right{
+        margin-right:20px ;
+    }
+}
+
+
+
+
+
