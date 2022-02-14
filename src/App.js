@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from 'react';
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
@@ -7,12 +8,29 @@ import Ranking from './Pages/Ranking';
 import Community from './Pages/Community';
 import Store from './Pages/Store';
 import Help from './Pages/Help';
+import NavbarVertical from './Components/NavbarVertical';
+import $ from 'jquery';
 
 function App() {
+
+  const toggel = () => {
+    $(".showNav").click(function () {
+      $(".myimg").toggleClass("changed");
+      $(".navbarVertical").toggleClass("active");
+    });
+  }
+
+  useEffect(() => {
+    toggel();
+  }, []);
+
+
   return (
     <div className="App">
       <Router>
         <Navbar />
+
+        <NavbarVertical />
         <Routes>
           <Route path='/home' exact element={<Home />} />
           <Route path='/beatmaps' exact element={<Beatmaps />} />

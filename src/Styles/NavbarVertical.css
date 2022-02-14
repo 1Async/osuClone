@@ -1,0 +1,106 @@
+.navbarVertical{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    opacity: 95%;
+    position: absolute;
+    display: none;
+}
+
+.navbarVertical .login{
+    width: auto;
+    height: 40px;
+    background-color:#29363d;
+    display: flex;
+    align-items:  center;
+    padding-left: 12px;
+}
+
+.navbarVertical .login .profile{
+    width: 30px;
+    height: 70%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbarVertical .login .profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.navbarVertical .login span{
+   color: #6a8998;
+}
+
+.navbarVertical .login span a{
+    color: #6a8998;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbarVertical .login span a:hover{
+    color: #ffffff;
+}
+
+.navbarVertical .Links{
+    width: auto;
+    height: auto;
+}
+
+.navbarVertical .Links{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbarVertical .Links .Link {
+    width: auto;
+    height:20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.navbarVertical .Links .Link .rightIcon  {
+    width: auto;
+    height:auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbarVertical .Links .Link .rightIcon img  {
+    width:15px;
+    height:15px;
+    display: flex;
+    align-items: center;
+    filter: invert(69%) sepia(1%) saturate(435%) hue-rotate(163deg) brightness(93%) contrast(99%);
+}
+
+.navbarVertical .Links .Link a  {
+   color: #a1a4a5;
+   text-decoration: none;
+   margin-left: 15px;
+}
+
+.navbarVertical .Links .Link a:hover {
+   color: white;
+}
+
+@media screen and (max-width:900px) {
+    .navbarVertical{
+        display: none;
+    }
+    .navbarVertical.active{
+        display: block;
+    }
+}
+
+
+
+

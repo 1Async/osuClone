@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Styles/Navbarr.css'
 import { Link } from 'react-router-dom';
 import osuLogo from "../Images/Osulogo.png";
@@ -67,7 +67,7 @@ function Navbar() {
                 </div>
             </div>
             <div className="showNav">
-                <img src={downIcon} alt='ShowNav' />
+                <img className='myimg' src={downIcon} alt='ShowNav' />
             </div>
         </div>
     )
