@@ -21,7 +21,7 @@ function Navbar() {
                     </div>
                     <div className='Links'>
                         <div className='Link'>
-                            <Link to="/home">home</Link>
+                            <Link to="/">home</Link>
                         </div>
                         <div className='Link'>
                             <Link to="/beatmaps">beatmaps</Link>

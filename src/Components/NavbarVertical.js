@@ -21,7 +21,7 @@ function NavbarVertical() {
                     <div className='rightIcon'>
                         <img src={rightIcon} alt="right" />
                     </div>
-                    <Link to="/home">home</Link>
+                    <Link to="/">home</Link>
                 </div>
                 <div className='Link'>
                     <div className='rightIcon'>
