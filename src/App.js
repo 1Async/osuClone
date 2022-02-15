@@ -8,6 +8,7 @@ import Ranking from './Pages/Ranking';
 import Community from './Pages/Community';
 import Store from './Pages/Store';
 import Help from './Pages/Help';
+import Footer from './Components/Footer';
 import NavbarVertical from './Components/NavbarVertical';
 import $ from 'jquery';
 
@@ -38,6 +39,7 @@ function App() {
           <Route path='/store' exact element={<Store />} />
           <Route path='/help' exact element={<Help />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

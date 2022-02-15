@@ -325,6 +325,8 @@
     border-radius: 15px;
     cursor: pointer;
     font-size: 12px;
+    text-decoration: none;
+    color:white;
 }
 
 .home .seeMore a:hover{

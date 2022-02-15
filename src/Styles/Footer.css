@@ -1,0 +1,35 @@
+.footer{
+    width: auto;
+    height: 50px;
+    background-color: #292522;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.footer .top2,.bot2{
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .top2 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.footer .top2 a:hover{
+    color: #9d9086;
+}
+
+.footer .bot2 p{
+    margin-top: 0;
+    color: #9d9086;
+}
+

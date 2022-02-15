@@ -65,7 +65,7 @@ function Home() {
                 </div>
             </div>
             <div className='seeMore'>
-                <a src="#">
+                <a href="#">
                     SEE MORE NEWS
                 </a>
             </div>
