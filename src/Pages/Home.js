@@ -35,7 +35,40 @@ function Home() {
                     <span>by pishifat</span>
                 </div>
             </div>
-            <div className='more'></div>
+            <div className='more'>
+                <div className='Featured f1'>
+                    <div className='featurImg i1'>
+                        <div className='mysapn'>12 FEB 2022</div>
+                    </div>
+                    <div className='bot'>
+                        <span>Community Choice 2021: Results</span>
+                        <span>by Ephemeral</span>
+                    </div>
+                </div>
+                <div className='Featured f2'>
+                    <div className='featurImg i2'>
+                        <div className='mysapn'>12 FEB 2022</div>
+                    </div>
+                    <div className='bot'>
+                        <span>osu!taiko World Cup 2022</span>
+                        <span>by Azer, ChillierPear, LeoFLT</span>
+                    </div>
+                </div>
+                <div className='Featured f3'>
+                    <div className='featurImg i3'>
+                        <div className='mysapn'>9 FEB 2022</div>
+                    </div>
+                    <div className='bot'>
+                        <span>New Featured Artist: HEAD PHONES</span>
+                        <span>by pishifat</span>
+                    </div>
+                </div>
+            </div>
+            <div className='seeMore'>
+                <a src="#">
+                    SEE MORE NEWS
+                </a>
+            </div>
         </div>
     )
 }
