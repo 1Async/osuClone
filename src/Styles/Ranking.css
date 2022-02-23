@@ -1,0 +1,176 @@
+.ranking{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.ranking .ranking-head{
+    width: 75%;
+    height: 180px;
+    background-color: #202e1f;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ranking .ranking-head .osu-types{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    padding-left: 40px;
+}
+
+.ranking .ranking-head .osu-types .osu-types-left{
+    display: flex;
+    width: 63%;
+    height: 100%;
+    align-items: center;
+}
+
+.ranking .ranking-head .osu-types .osu-types-left .rankig-logo{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.ranking .ranking-head .osu-types .osu-types-left .rankig-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.ranking .ranking-head .osu-types .osu-types-left p{
+    font-size: 20px;
+}
+
+.ranking .ranking-head .osu-types .osu-types-right{
+    display: flex;
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ranking .ranking-head .osu-types .osu-types-right a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #67ff66;
+}
+
+.ranking .ranking-head .osu-types .osu-types-right a:hover{
+    color: white;
+}
+
+.ranking .ranking-head .order-by{
+    width: 100%;
+    height: 25%;
+    background-color: #2a3d29;
+} 
+
+.ranking .ranking-head .order-by-list{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    border-bottom: 1px solid #67ff66;
+}
+
+.ranking .ranking-head .order-by-list div{
+    margin-right: 12px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ranking .ranking-head .order-by-list div:hover{
+    border-bottom: 3px #67ff66 solid;   
+    border-radius: 2px;
+}
+
+.ranking .ranking-head .order-by-list div a{
+    text-decoration: none;
+    color: #63bab2;
+}
+
+.ranking .ranking-head .order-by-list div a:hover{
+    color: white;
+}
+
+.ranking .ranking-head .listed-by{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: #354d33;
+}
+
+.ranking .ranking-head .listed-by .countries-list{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.ranking .ranking-head .listed-by .countries-list label{
+    font-size: 12px;
+}
+
+.ranking .ranking-head .listed-by .countries-list select{
+    margin-top: 10px;
+    height: 30px;
+    background-color: #263425;
+    border-radius: 4px;
+    border: 2px #283a26 solid;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.ranking .ranking-head .listed-by .countries-list select:hover{
+    background-color: #1d261d;
+}
+
+.ranking .ranking-head .listed-by .friend-All {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.ranking .ranking-head .listed-by .friend-All label{
+    font-size: 15px;
+}
+
+.ranking .ranking-head .listed-by .friend-All .friend-All-Fields{
+   display: flex;
+   margin-top: 5px;
+}
+
+.ranking .ranking-head .listed-by .friend-All .friend-All-Fields div{
+    height:25px ;
+    background-color: #3a4639;
+    border-radius: 3px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.ranking .ranking-head .listed-by .friend-All .friend-All-Fields .Friend{
+    width:70px;
+}
+
+.ranking .ranking-head .listed-by .friend-All .friend-All-Fields .All{
+    width:35px;
+}
